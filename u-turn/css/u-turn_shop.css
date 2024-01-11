@@ -1,0 +1,90 @@
+.shop {
+    width: 100%;
+    height: 100%;
+}
+
+.shop_box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.shop_img {
+    width: 50%;
+    height: 100%;
+}
+
+.shop_img>figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shop_img>figure>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.shop_btn {
+    width: 50%;
+    height: 100%;
+}
+
+
+.shop_ul_btn {
+    width: 500px;
+    height: calc(100vh - 400px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 200px;
+    padding-top: 100px;
+    position: fixed;
+    gap: 1rem;
+    font-family: 'NotoSansKR-Medium';
+}
+
+.shop_ul_btn>li>ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nemo {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    background-color: #1243ac;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.shop_ul_btn>span {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 0 1px black inset;
+}
+
+.shop_ul_btn>span>a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.shop_ul_btn>span:hover {
+    background-color: #1243ac;
+    cursor: pointer;
+}
+
+.shop_ul_btn>span:hover a {
+    color: white;
+}

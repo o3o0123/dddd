@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/u-turn.css">
+    <link rel="stylesheet" href="css/u-turn-css.css" />
+    <script src="js/script.js"></script>
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="navi">
+            <ul class="navi-ul">
+                <li class="li"><a class="menu" href="u-turn_shop.html">SHOP</a>
+                    <ul class="submenu">
+                        <li><a href="">Cases</a></li>
+                        <li><a href="">Pouches</a></li>
+                        <li><a href="">Stationery</a></li>
+                        <li><a href="">Accessory</a></li>
+                        <li><a href="">Interesting</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu" href="u-turn_archive.html">ARCHIVE</a>
+                    <ul class="submenu">
+                        <li><a href="">Offline</a></li>
+                        <li><a href="">Event</a></li>
+                        <li><a href="">Membership</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu" href="u-turn_community.html">COMMUNITY</a>
+                    <ul class="submenu">
+                        <li><a href="">Notice</a></li>
+                        <li><a href="">Review</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu" href="u-turn_about.html">ABOUT</a>
+                    <ul class="submenu">
+                        <li><a href="">Collabo</a></li>
+                        <li><a href="">Story</a></li>
+                        <li><a href="">Store</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <figure class="navi-logo">
+                <a href="u-turn.html"><img src="img/logo.png" alt=""></a>
+
+            </figure>
+            <div class="svg">
+                <svg class="navi-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M23.111 20.058l-4.977-4.977c.965-1.52 1.523-3.322 1.523-5.251 0-5.42-4.409-9.83-9.829-9.83-5.42 0-9.828 4.41-9.828 9.83s4.408 9.83 9.829 9.83c1.834 0 3.552-.505 5.022-1.383l5.021 5.021c2.144 2.141 5.384-1.096 3.239-3.24zm-20.064-10.228c0-3.739 3.043-6.782 6.782-6.782s6.782 3.042 6.782 6.782-3.043 6.782-6.782 6.782-6.782-3.043-6.782-6.782zm2.01-1.764c1.984-4.599 8.664-4.066 9.922.749-2.534-2.974-6.993-3.294-9.922-.749z" />
+                </svg>
+                <svg class="navi-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                    clip-rule="evenodd"><a class="login" href="u-turn_login.html">
+                        <path
+                            d="M14.003 17.23c-.178.247-1.456.922-1.462-.396v-.464c.43-.208.731-.634.731-1.015 0-.526-.571-.762-1.272-.762-.701 0-1.271.236-1.271.762 0 .377.294.796.717 1.007v.472c-.008 1.227-1.18.829-1.392.453-.404-.716-1.249-.153-.94.423.29.541 1.001.918 1.73.918.446 0 .848-.146 1.149-.416.302.27.703.416 1.15.416.727 0 1.439-.377 1.729-.918.316-.584-.417-1.105-.869-.48zm.997-5.73c-.459 0-.833.374-.833.834 0 .459.374.833.833.833.459 0 .833-.374.833-.833 0-.46-.374-.834-.833-.834zm0 2.667c-1.011 0-1.833-.823-1.833-1.833 0-1.012.822-1.834 1.833-1.834 1.011 0 1.833.822 1.833 1.834 0 1.01-.822 1.833-1.833 1.833zm-6-2.667c-.459 0-.833.374-.833.834 0 .459.374.833.833.833.46 0 .834-.374.834-.833 0-.46-.374-.834-.834-.834zm0 2.667c-1.011 0-1.833-.823-1.833-1.833 0-1.012.822-1.834 1.833-1.834 1.011 0 1.834.822 1.834 1.834 0 1.01-.823 1.833-1.834 1.833zm1.545-5.66c.772-.195 2.101-.198 2.909 0 .977-1.478 1.643-2.298 3.03-3.507 2.7 3.301 3.762 9.095 4.196 13.732-2.015 2.591-5.152 4.268-8.68 4.268-3.56 0-6.721-1.708-8.733-4.339.347-4.718 1.237-10.618 3.733-13.661 1.469 1.16 2.426 2.15 3.545 3.507zm1.455-8.507c-6.623 0-12 5.376-12 12 0 6.623 5.377 12 12 12s12-5.377 12-12c0-6.624-5.377-12-12-12z" />
+                </svg></a>
+                <svg class="navi-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.305-15l-3.432 12h-10.428l-3.777-9h-2.168l4.615 11h13.239l3.474-12h1.929l.743-2h-4.195zm-8.805 1l1.223 2.523 2.777.383-2.021 1.943.493 2.76-2.472-1.322-2.472 1.322.493-2.76-2.021-1.943 2.777-.383 1.223-2.523z" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div> -->
+            <figure class="swiper-slide">
+                <img src="img/main_img.jpg" alt="">
+            </figure>
+            <figure class="swiper-slide">
+                <img src="img/main2.jpg" alt="">
+            </figure>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 하단 부분 영역 -->
+    <div class="bottom">
+        <div class="ul-between">
+            <ul class="bottom-ul">
+                <li>고객센터<br>
+                    <br>
+                    010-6371-3144
+                </li>
+                <li>MONDAY-FRIDAY <br>
+                    <br>
+                    11:00-18:00 <br>
+                    <br>
+                    SAT/HOLIDAY OFF <br>
+                    <br>
+                    BRAKE TIME <br>
+                    <br>
+                    13:00-14:00
+                </li>
+                <li>CS 관련 문의(jae_eun_s@naver.com) <br>
+                    <br>
+                    온라인 관련 제휴/제안 (jae_eun_s@naver.com) <br>
+                    <br>
+                    오프라인 관련 제휴/제안 (jae_eun_s@naver.com) <br>
+                    <br>
+                    COPYRIGHT(C) 2023 U-TURN
+                </li>
+            </ul>
+            <ul class="bottom-ul2">
+                <li class="bottom-svg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.615 6h-9.23c-.766 0-1.385.62-1.385 1.384v9.23c0 .766.619 1.386 1.385 1.386h9.23c.766 0 1.385-.62 1.385-1.385v-9.23c0-.765-.619-1.385-1.385-1.385zm-4.615 3.693c1.274 0 2.309 1.032 2.309 2.307s-1.035 2.307-2.309 2.307-2.307-1.033-2.307-2.307 1.033-2.307 2.307-2.307zm4.5 6.346c0 .255-.207.461-.461.461h-8.078c-.254 0-.461-.207-.461-.461v-5.039h.949c-.045.158-.078.32-.102.486-.023.168-.038.339-.038.514 0 2.04 1.652 3.693 3.691 3.693s3.691-1.653 3.691-3.693c0-.174-.015-.346-.039-.514-.023-.166-.058-.328-.102-.486h.95v5.039zm0-6.991c0 .255-.207.462-.461.462h-1.088c-.256 0-.461-.208-.461-.462v-1.087c0-.255.205-.461.461-.461h1.088c.254 0 .461.207.461.461v1.087z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M16.23 7.102c-2.002-.136-6.462-.135-8.461 0-2.165.148-2.419 1.456-2.436 4.898.017 3.436.27 4.75 2.437 4.898 1.999.135 6.459.136 8.461 0 2.165-.148 2.42-1.457 2.437-4.898-.018-3.436-.271-4.75-2.438-4.898zm-6.23 7.12v-4.444l4.778 2.218-4.778 2.226zm2-12.222c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z" />
+                    </svg>
+                <li>COMPANY | BUYINTERNATIONAL <br>
+
+                    OWNER | SHIN JAE EUN <br>
+
+                    CORPORATE REGISTRATION NUMBER | 123-01-1996 <br>
+
+                    MALL ORDER LICENSE | 제 2023 - 경기평택 - 0123호 <br>
+
+                    ADDRESS | 14, Jijedongsak 3-ro, Pyeongtaek-si, Gyeonggi-do, Republic of Korea
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
